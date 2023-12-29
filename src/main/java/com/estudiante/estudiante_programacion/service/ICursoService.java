@@ -9,7 +9,7 @@ public interface ICursoService {
     
     public void saveCurso(Curso curso);
     
-    public void updateCurso(Curso curso);
+    public Curso updateCurso(Curso curso);
     
     public void deleteCurso(Long id);
 

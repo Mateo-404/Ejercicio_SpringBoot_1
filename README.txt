@@ -8,20 +8,20 @@ Tema, en donde un curso puede contener varios temas (relación 1 a muchos).
 
 A partir de esto, el estudiante desea desarrollar una API que le permita realizar las siguientes acciones:
 
-1. Crear un nuevo curso ✔
+1. Crear un nuevo curso
 
-2. Crear temas y asociar a un curso ✔
+2. Crear temas y asociar a un curso
 
-3. Obtener todos los cursos ✔
+3. Obtener todos los cursos
 
-4. Obtener todos los temas de un determinado curso ✔
+4. Obtener todos los temas de un determinado curso
 
 5. Obtener todos los cursos que contengan como nombre la palabra “Java” (puede contener otras palabras,
-por ejemplo, Introducción a Java, Java avanzado, Java para principiantes, etc). ✔
+por ejemplo, Introducción a Java, Java avanzado, Java para principiantes, etc).
 
-6. Modificar los datos de un curso ✔
+6. Modificar los datos de un curso
 
-7. Modificar los datos de un determinado tema  ✔
+7. Modificar los datos de un determinado tema 
 
 Para realizar cada uno de los endpoints considerar los métodos HTTP correspondientes según la acción que sea
 necesaria llevar a cabo. Al mismo tiempo, contemplar el uso de DTOs para las respuestas y todas las buenas

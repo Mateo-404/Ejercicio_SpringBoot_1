@@ -8,7 +8,7 @@ public interface ITemaService {
     
     public void saveTema(Tema tema);
     
-    public void updateTema(Tema tema);
+    public Tema updateTema(Tema tema);
 
     public void deleteTema(Long id);
 
