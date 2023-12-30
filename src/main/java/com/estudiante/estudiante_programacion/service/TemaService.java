@@ -35,6 +35,12 @@ public class TemaService implements ITemaService{
         
         return (Tema) repository.findById(tema.getId()).orElse(null);
     }
+
+    @Override
+    public Tema findTemaById(Long id) {
+        return (Tema) repository.findById(id).orElse(null);
+    }
+    
     
     
 }

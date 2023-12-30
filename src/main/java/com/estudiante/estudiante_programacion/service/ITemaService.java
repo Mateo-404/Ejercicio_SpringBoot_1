@@ -13,4 +13,6 @@ public interface ITemaService {
     public void deleteTema(Long id);
 
     public List<Tema> findAllTemas();
+
+    public Tema findTemaById(Long id);
 }
